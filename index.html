@@ -10,6 +10,8 @@
     <script src="scripts/jquery-3.3.1.min.js"></script>
     <script defer src="scripts/fontawesome/fontawesome-all.js"></script>
     <script defer src="scripts/fontawesome/fa-v4-shims.js"></script>
+    <script src="scripts/personal_scripts/clickControllers.js"></script>
+    <link rel="icon" href="images/pix-avatar-self.png">
 </head>
 <body>
 
@@ -18,19 +20,23 @@
         <div id="side_a">
             <!--Avatar image-->
             <div class="col-xs-6 col-md-2" id="avatar">
-				<span class="thumbnail">
+				<span class="thumbnail" style="margin-bottom: 0">
 					<img src="images/pix-avatar-self.png">
 				</span>
             </div>
+            <h1 style="padding-left: 10px; margin-bottom: 30px">Valentin Vasilev</h1>
 
             <!--Contact info-->
             <div id="contact_me" class="panel panel-default">
                 <div class="panel-heading"><h4>Contact me</h4></div>
                 <div class="panel-body">
                     <ul style="list-style: none; padding-left: 10px">
-                        <li><i class="fa fa-envelope fa-lg" aria-hidden="true"></i><h4><a href="mailto:valentin.v1997@gmail.com">Email</a></h4></li>
-                        <li><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i><h4><a href="https://www.linkedin.com/in/valentin-vasilev-25367211b/">LinkedIn</a></h4></li>
-                        <li><i class="fa fa-github fa-lg" aria-hidden="true"></i><h4><a href="https://github.com/vv-b-s">GitHub</a></h4></li>
+                        <li><i class="fa fa-envelope fa-lg" aria-hidden="true"></i><h4><a
+                                href="mailto:valentin.v1997@gmail.com">Email</a></h4></li>
+                        <li><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i><h4><a
+                                href="https://www.linkedin.com/in/valentin-vasilev-25367211b/">LinkedIn</a></h4></li>
+                        <li><i class="fa fa-github fa-lg" aria-hidden="true"></i><h4><a
+                                href="https://github.com/vv-b-s">GitHub</a></h4></li>
                     </ul>
                 </div>
             </div>
@@ -84,7 +90,70 @@
             </div>
 
             <!--Featured GitHub projects-->
+            <div class="panel panel-default" id="#featured_github_projects">
+                <div class="panel-heading" style="background: olive; color: white;"><h4>Featured github projects</h4>
+                </div>
+                <div class="panel-body" style="padding:0;">
+                    <div class="list-group" style="margin: 0">
+                        <a href="https://github.com/vv-b-s/DuckyDebug-Web" class="list-group-item"
+                           onclick="onLinkedItemClick(this, 'github-project-clicked')">DuckyDebug-Web</a>
+                        <a href="https://github.com/vv-b-s/SoftUni" class="list-group-item"
+                           onclick="onLinkedItemClick(this, 'github-project-clicked')">SoftUni</a>
+                        <a href="https://github.com/vv-b-s/PocketStatistician" class="list-group-item"
+                           onclick="onLinkedItemClick(this, 'github-project-clicked')">PocketStatistician</a>
+                        <a href="https://github.com/vv-b-s/Unity/tree/master/ThePongProject" class="list-group-item"
+                           onclick="onLinkedItemClick(this, 'github-project-clicked')">ThePongProject</a>
+                        <a href="https://github.com/vv-b-s/Game-of-life-and-death" class="list-group-item"
+                           onclick="onLinkedItemClick(this, 'github-project-clicked')">Game of life and death</a>
+                        <a href="https://github.com/vv-b-s/FinanceCalculator" class="list-group-item"
+                           onclick="onLinkedItemClick(this, 'github-project-clicked')">Finance calculator</a>
+                    </div>
+                </div>
+            </div>
 
+            <!--Apps-->
+            <div class="panel panel-default" id="#my_apps">
+                <div class="panel-heading" style="background-color: lavender"><h4>My apps</h4></div>
+                <div class="panel-body" style="padding:0;">
+                    <div class="list-group" style="margin: 0">
+                        <a href="https://play.google.com/store/apps/details?id=duckydebug.duckydebug" class="list-group-item"
+                           onclick="onLinkedItemClick(this, 'app-clicked')">
+                            <div class="container">
+                                <div class="col-xs-6 col-md-2 app-image" >
+                                <span class="thumbnail" ><img
+                                        src="https://lh3.googleusercontent.com/5xzdlK741mj16PSZYCZ2pseErSdUgoWQUVG8Lym8qQ9ZFAi6G-mkE8HaC-9ihhFWlTI=w300-rw"></span>
+                                </div>
+                                <div class="app-description">
+                                    <h4>Ducky Debug (Alpha)</h4>
+                                    <p>The app is like a notepad, but a special one! It is meant to help you solve out your
+                                        programming issues by creating a thinking path through answering questions, relevant to
+                                        the kind of issue you're having.What the app does is templating questions that would
+                                        prompt you to think about the problem in different ways and write out about your
+                                        observations...</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.microsoft.com/en-us/store/p/ascii-to-text/9pn63cmswmbl" class="list-group-item" onclick="onLinkedItemClick(this,'app-clicked')">
+                           <div class="container">
+                               <div class="col-xs-6 col-md-2 app-image">
+                                <span class="thumbnail"><img
+                                        src="https://store-images.s-microsoft.com/image/apps.42315.14354475131591029.4fbb5613-1354-4164-9011-59e8fb424916.ff207e80-bf7f-4f8e-afeb-534bd4f52b8f?w=180&h=180&q=60"></span>
+                               </div>
+                               <div class="app-description">
+                                   <h4>ASCII to Text</h4>
+                                   <p>
+                                       - Convert almost any text into Binary, Octal, Decimal or Hex.<br>
+                                       - Convert Binary from ASCII and Octal, Decimal, Hex from Unicode to text.<br><br>
+                                       - Use the combo box to switch between counting bases.<br>
+                                       - The Binary conversion will work only with 255 characters.<br>
+                                       - All other conversions will work with the limit of their integer length.<br>
+                                   </p>
+                               </div>
+                           </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -92,6 +161,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-
 </body>
 </html>

@@ -47,3 +47,28 @@ li>h4{
     display: inline-block;
     margin-left: 10px;
 }
+
+.github-project-clicked {
+    background-color: darkolivegreen!important;
+    border-color: olivedrab!important;
+ }
+
+.app-clicked{
+    background-color: mediumpurple;
+    border-color: palevioletred;
+}
+
+.app-description{
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+
+.app-description>p{
+    width: inherit;
+}
+
+.app-image{
+    float: left;
+    display: inline-block;
+}
