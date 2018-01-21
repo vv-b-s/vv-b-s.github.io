@@ -1,0 +1,49 @@
+body{
+    background: teal;
+}
+
+#main_body_panel{
+    width: 90%;
+    margin-top: 10%;
+    /* Allows the panel to align at the center */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffffdf;
+}
+
+#side_a{
+    float: left;
+    display: inline-block;
+    width: 30%;
+}
+
+#side_b{
+    float: right;
+    width: 70%;
+}
+
+.panel-heading{
+    padding-bottom: 0;
+}
+
+#about_me>.panel-heading{
+    background: antiquewhite;
+}
+
+#contact_me{
+    margin: 10px 20px 10px 10px;
+}
+
+#contact_me>.panel-heading{
+    background: lightskyblue;
+}
+
+li>h4{
+    display: inline-block;
+    margin-left: 10px;
+}
