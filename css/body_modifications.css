@@ -64,10 +64,6 @@ li>h4{
     width: 70%;
 }
 
-.app-description>p{
-    width: inherit;
-}
-
 .rel-content-click{
     background-color: burlywood!important;
     border-color: darksalmon!important;
@@ -77,6 +73,11 @@ li>h4{
     float: left;
     display: inline-block;
     padding-left: 0;
+    width: 30%;
+}
+
+.list-descriptions-container{
+    width: inherit!important;
 }
 
 .panel-body>.list-group{
