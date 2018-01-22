@@ -35,7 +35,7 @@ body{
     background: antiquewhite;
 }
 
-#contact_me{
+#contact_me ,#related_content{
     margin: 10px 20px 10px 10px;
 }
 
@@ -54,8 +54,8 @@ li>h4{
  }
 
 .app-clicked{
-    background-color: mediumpurple;
-    border-color: palevioletred;
+    background-color: mediumpurple!important;
+    border-color: palevioletred!important;
 }
 
 .app-description{
@@ -68,7 +68,17 @@ li>h4{
     width: inherit;
 }
 
+.rel-content-click{
+    background-color: burlywood!important;
+    border-color: darksalmon!important;
+}
+
 .app-image{
     float: left;
     display: inline-block;
+    padding-left: 0;
+}
+
+.panel-body>.list-group{
+    margin:0;
 }

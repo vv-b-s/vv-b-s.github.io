@@ -17,6 +17,7 @@
 
 <div id="main_body_panel" class="panel panel-default">
     <div class="panel-body">
+        <!--Left side-->
         <div id="side_a">
             <!--Avatar image-->
             <div class="col-xs-6 col-md-2" id="avatar">
@@ -40,7 +41,29 @@
                     </ul>
                 </div>
             </div>
+
+            <!--Related content-->
+            <div id="related_content" class="panel panel-default">
+                <div class="panel-heading" style="background: beige">Related content</div>
+                <div class="panel-body" style="padding:0">
+                    <div class="list-group">
+                        <a href="https://1drv.ms/o/s!AtncMMq8WaaViaBWVWYJy39RzRD56w" class="list-group-item" onclick="onLinkedItemClick(this,'rel-content-click')">
+                            <div class="container" style="padding-left: 0">
+                                <div class="col-xs-6 col-md-1 app-image">
+                                    <span class="thumbnail"><img src="http://www.iconarchive.com/download/i77906/carlosjj/microsoft-office-2013/OneNote.ico"></span>
+                                </div>
+                                <div class="app-description">
+                                    <h4 style="margin-bottom: 0">Programming</h4>
+                                    <h6 style="margin-top: 0">A notebook by Valentin Vasilev</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <!--Right side-->
         <div id="side_b">
             <!--About me resume-->
             <div id="about_me" class="panel panel-default">
@@ -91,7 +114,7 @@
                 <div class="panel-heading" style="background: olive; color: white;"><h4>Featured github projects</h4>
                 </div>
                 <div class="panel-body" style="padding:0;">
-                    <div class="list-group" style="margin: 0">
+                    <div class="list-group">
                         <a href="https://github.com/vv-b-s/DuckyDebug-Web" class="list-group-item"
                            onclick="onLinkedItemClick(this, 'github-project-clicked')">DuckyDebug-Web</a>
                         <a href="https://github.com/vv-b-s/SoftUni" class="list-group-item"
@@ -110,9 +133,9 @@
 
             <!--Apps-->
             <div class="panel panel-default" id="#my_apps">
-                <div class="panel-heading" style="background-color: lavender"><h4>My apps</h4></div>
+                <div class="panel-heading" style="background: lavender;"><h4>My apps</h4></div>
                 <div class="panel-body" style="padding:0;">
-                    <div class="list-group" style="margin: 0">
+                    <div class="list-group">
                         <a href="https://play.google.com/store/apps/details?id=duckydebug.duckydebug" class="list-group-item"
                            onclick="onLinkedItemClick(this, 'app-clicked')">
                             <div class="container">
