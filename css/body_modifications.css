@@ -1,5 +1,7 @@
 body{
-    background: teal;
+    background-image: url("../images/portfolio-bcg.png");
+    background-repeat: repeat;
+    background-size: 500px;
 }
 
 #main_body_panel{
