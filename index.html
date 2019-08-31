@@ -1,201 +1,508 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <TITLE>vv-b-s</TITLE>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/body_modifications.css"/>
-    <link rel="stylesheet" href="css/avatar_modifications.css">
-    <script src="scripts/personal_scripts/utils.js"></script>
-    <script src="scripts/jquery-3.3.1.min.js"></script>
-    <script src="scripts/personal_scripts/clickControllers.js"></script>
-    <script src="scripts/personal_scripts/utils.js"></script>
-    <link rel="icon" href="images/pix-avatar-self.png">
+    <title>Valentin Vasilev</title>
+    <script src="https://kit.fontawesome.com/9b6ee826c9.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="res/css/index.css">
+    <link rel="icon" href="res/img/pix-avatar-self.png">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+
+    <!--Chrome-->
+    <meta name="theme-color" content="#0b0b0b">
+
+    <!-- Edge -->
+    <meta name="msapplication-navbutton-color" content="#0b0b0b">
+
+    <!-- Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0b0b0b">
+
+    <meta name="theme-color" content="#0b0b0b">
 </head>
 <body>
 
-<div id="main_body_panel" class="panel panel-default">
-    <div class="panel-body">
-        <!--Left side-->
-        <div id="side_a">
-            <!--Avatar image-->
-            <div class="col-xs-6 col-md-2" id="avatar">
-				<span class="thumbnail" style="margin-bottom: 0">
-					<img src="images/pix-avatar-self.png">
-				</span>
-            </div>
-            <div style="padding-left: 10px; margin-bottom: 30px">
-                <h1>Valentin Vasilev</h1>
-                <h4 style="padding: 5px; color: grey;">Junior JavaEE Developer at VIDA Software Ltd.</h4>
-            </div>
-
-            <!--Contact info-->
-            <div id="contact_me" class="panel panel-default">
-                <div class="panel-heading"><h4>Contact me</h4></div>
-                <div class="panel-body">
-                    <ul style="list-style: none; padding-left: 10px">
-                        <li><i class="fas fa-envelope"></i><h4><a
-                                href="mailto:valentin.v1997@gmail.com">Email</a></h4></li>
-                        <li><i class="fab fa-linkedin"></i><h4><a
-                                href="https://www.linkedin.com/in/valentin-vasilev-25367211b/">LinkedIn</a></h4></li>
-                        <li><i class="fab fa-github-alt"></i><h4><a
-                                href="https://github.com/vv-b-s">GitHub</a></h4></li>
-                    </ul>
-                </div>
-            </div>
-
-            <!--Related content-->
-            <div id="related_content" class="panel panel-default">
-                <div class="panel-heading" style="background: beige"><h4>Related content</h4></div>
-                <div class="panel-body" style="padding:0">
-                    <div class="list-group">
-                        <a href="https://1drv.ms/o/s!AtncMMq8WaaViaBWVWYJy39RzRD56w" class="list-group-item"
-                           onclick="onLinkedItemClick(this,'rel-content-click')">
-                            <div class="container list-descriptions-container" style="padding-left: 0;">
-                                <div class="col-xs-6 col-md-1 app-image">
-                                    <span class="thumbnail"><img
-                                            src="https://cdn.iconscout.com/public/images/icon/free/png-512/microsoft-onenote-logo-31bb7fcc4ce323f1-512x512.png"></span>
-                                </div>
-                                <div class="app-description">
-                                    <h4 style="margin-bottom: 0">Programming</h4>
-                                    <h6 style="margin-top: 0">A notebook where all my programming observations are
-                                        written</h6>
+<div class="container-fluid">
+    <div class="row mt-5 ml-3 mr-md-3 mr-sm-3">
+        <div class="col-lg-3 mr-lg-4 col-md-12 col-sm-12 mb-lg-3 mb-sm-3">
+            <div class="row card general-card">
+                <div class="col">
+                    <div class="row d-flex justify-content-center m-5">
+                        <img src="res/img/avatar.jpg" class="card-img-top img-circle rounded-circle">
+                    </div>
+                    <div class="row">
+                        <div class="col about-info">
+                            <div class="row">
+                                <div class="col">
+                                    <h2>Valentin Vasilev</h2>
                                 </div>
                             </div>
-                        </a>
+                            <div class="row card mx-3 mb-5 py-3 info-card">
+                                <div class="col">
+                                    <div class="d-flex justify-content-center mb-2">
+                                        <h4 class="mr-5" style="color: #946746"><i class="fas fa-briefcase"></i></h4>
+                                        <h4 class="mr-5" style="color: darkgreen"><i class="fas fa-code"></i></h4>
+                                        <h4 style="color: #b33945"><i class="fab fa-java"></i></h4>
+                                    </div>
+                                    <h4 class="occupation-text">Full-stack developer</h4>
+                                    <h4 class="occupation-text"><a href="https://vida-soft.com">VIDA Software LTD</a></h4>
+                                </div>
+                            </div>
+                            <div class="row card mb-5 mx-3 py-3 info-card">
+                                <div class="col">
+                                    <h4>Contact</h4>
+                                    <div class="row d-flex justify-content-center">
+                                        <h1 class="mr-lg-3 mr-md-5 mr-sm-5"><a href="mailto:valentin@vv-v-s.com"
+                                                                               class="mail-link"><i
+                                                class="fas fa-envelope"></i></a>
+                                        </h1>
+                                        <h1 class="mr-lg-3 mr-md-5 mr-sm-5"><a class="skype-link"
+                                                                               href="skype:valentin.v_97"><i
+                                                class="fab fa-skype"></i></a></h1>
+                                        <h1><a class="discord-link" href="discord:Brain Stew#1101"><i
+                                                class="fab fa-discord"></i></a></h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row card mb-5 mx-3 py-3 info-card">
+                                <div class="col">
+                                    <h4>Social media</h4>
+                                    <div class="row d-flex justify-content-center">
+                                        <h1 class="mr-lg-3 mr-md-5 mr-sm-5"><a
+                                                href="https://www.linkedin.com/in/valentin-vasilev-25367211b/"
+                                                class="linkedin-link"><i class="fab fa-linkedin"></i></a>
+                                        </h1>
+
+                                        <h1 class="mr-lg-3 mr-md-5 mr-sm-5"><a
+                                                href="https://medium.com/@valentin.v1997"
+                                                class="medium-link"><i class="fab fa-medium"></i></a>
+                                        </h1>
+
+                                        <h1 class="mr-lg-3 mr-md-5 mr-sm-5"><a
+                                                href="https://instagr.am/brainstew_x_x"
+                                                class="instagram-link"><i class="fab fa-instagram"></i></a>
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row card mb-5 mx-3 py-3 info-card">
+                                <div class="col">
+                                    <h4>Git</h4>
+                                    <div class="row d-flex justify-content-center">
+                                        <h1 class="mr-lg-3 mr-md-5 mr-sm-5"><a
+                                                href="https://github.com/vv-b-s"
+                                                class="github-link"><i class="fab fa-github"></i></a>
+                                        </h1>
+
+                                        <h1 class="mr-lg-3 mr-md-5 mr-sm-5"><a
+                                                href="https://gitlab.com/vv-b-s"
+                                                class="gitlab-link"><i class="fab fa-gitlab"></i></a>
+                                        </h1>
+
+                                        <h1 class="mr-lg-3 mr-md-5 mr-sm-5"><a
+                                                href="https://bitbucket.org/%7Bb4e8bcb1-ffe1-4175-b9f3-16b627ccb758%7D/"
+                                                class="bitbucket-link"><i class="fab fa-bitbucket"></i></a>
+                                        </h1>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="col-lg-8 col-md-12 col-sm-12 card general-card">
 
-        <!--Right side-->
-        <div id="side_b">
-            <!--About me resume-->
-            <div id="about_me" class="panel panel-default">
-                <div class="panel-heading"><h4>About me</h4></div>
-                <div class="panel-body">
-                    <p>My name is Valentin and I'm <span id="age"></span> years old Bulgarian Economics and Computer Science student and hobbyist.
-                        My enthusiasm for computers and technology is since my childhood. I liked playing with computer gadgets, finding out how they work, trying to break them and find a way to fix them.
-                        My interest in software development started around <span id="coding-since"></span> years ago.
-                        It was during the middle of my second semester at university, where the first two years we study Economy and the next two Computer Science.
-                        Since I had a lot of free time, I decided not to waste it and wait for the third year to start programming, but do it right away.
-                        So like every new to programming person, I went over the internet look for the best computer language.
-                        Mission impossible, right?
-                        There is no such thing as best or suitable programming language and  are a lot of opinions depending on person to person and their experience.
-                        I decided to start with C, as it was said it is very difficult to learn and what a better challenge?
-                        Well, I didn't get to the difficult parts though (i.e. memory management, pointers, etc.), because I had to move on with another language, more suitable for professional development.
-                        I went on learning C# and .NET technologies which got me more involved with programming and then I decided I should take courses in programming to speed up my learning and start doing some real stuff, apart from my regular curriculum at university.
-                        So I signed up for programming courses at the Software University - one of the biggest private software schools in the country.
-                        There I found my passion with software engineering, as I started seeing how all the different parts in software come together to make something bigger and useful.
-                        I also had experience with three more languages - Java, JavaScript, PHP, but what really helped me learn programming was the curiosity to find out what I can do with the knowledge I gather and the constant motivation to achieve new goals.
-                        I started developing my own little side projects in attempt to find out how things work and seeing my ideas come to life just made and makes me feel happy about what I do.<br/>
-                        Nowadays I keep learning new stuff as Computer Science is one endless ever growing field.
-                        In May 2018 I started my first job in <a href="http://vida-soft.com/">VIDA Software Ltd.</a> - a small software company where me and three very experienced senior developers build software solutions for the enterprise using the Java Enterprise Edition technology stack.
-                        Throughout my work I have improved my teamwork and communication skills, learned a lot about the the process of building a software for the enterprise, AGILE development and of course made new friendships.
-                    </p>
-                </div>
-            </div>
 
-            <!--Side projects-->
-            <div class="panel panel-default" id="#side_projects">
-                <div class="panel-heading" style="background: olive; color: white;"><h4>Side projects</h4>
-                </div>
-                <div class="panel-body" style="padding:0;">
-                    <div class="list-group">
-                        <a href="https://github.com/CrazyCodingFTW/LinearRegression" class="list-group-item"
-                           onclick="onLinkedItemClick(this, 'github-project-clicked')">Linear Regression</a>
-                        <a href="https://github.com/vv-b-s/DuckyDebug-Web" class="list-group-item"
-                           onclick="onLinkedItemClick(this, 'github-project-clicked')">DuckyDebug-Web</a>
-                        <a href="https://github.com/vv-b-s/SoftUni" class="list-group-item"
-                           onclick="onLinkedItemClick(this, 'github-project-clicked')">SoftUni</a>
-                        <a href="https://github.com/vv-b-s/PocketStatistician" class="list-group-item"
-                           onclick="onLinkedItemClick(this, 'github-project-clicked')">PocketStatistician</a>
-                        <a href="https://github.com/vv-b-s/Unity/tree/master/ThePongProject" class="list-group-item"
-                           onclick="onLinkedItemClick(this, 'github-project-clicked')">ThePongProject</a>
-                        <a href="https://github.com/vv-b-s/Game-of-life-and-death" class="list-group-item"
-                           onclick="onLinkedItemClick(this, 'github-project-clicked')">Game of life and death</a>
-                        <a href="https://github.com/vv-b-s/FinanceCalculator" class="list-group-item"
-                           onclick="onLinkedItemClick(this, 'github-project-clicked')">Finance calculator</a>
+            <!--            Articles-->
+            <div class="row">
+                <div class="col">
+                    <div class="card info-card mt-5">
+                        <div class="card-header">
+                            Articles
+                        </div>
+                        <div class="card-body  overflow-auto">
+                            <ul class="list-group card-body-list">
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://medium.com/vida-soft/creating-signed-ssl-connection-for-your-web-application-with-certbot-nginx-and-payaramicro-89e2ac6a3799">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="res/img/articles/ssl-article-image.jpg" class="img-fluid">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>Creating signed SSL connection for your web application
+                                                                with Certbot, Nginx and PayaraMicro</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Having a secure HTTP connection to your website/web
+                                                            application becomes an ever-increasing necessity nowadays.
+                                                            It is a standard for a modern day website to be secure.
+                                                            Finding a page on the Internet which does not start with
+                                                            https:// is getting more uncommon. Even Google Chrome
+                                                            started flagging http:// connections as 'Not secure' to
+                                                            raise the concern about insecure connections...
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!--Apps-->
-            <div class="panel panel-default" id="#my_apps">
-                <div class="panel-heading" style="background: lavender;"><h4>My apps</h4></div>
-                <div class="panel-body" style="padding:0;">
-                    <div class="list-group">
-                        <a href="https://play.google.com/store/apps/details?id=duckydebug.duckydebug"
-                           class="list-group-item"
-                           onclick="onLinkedItemClick(this, 'app-clicked')">
-                            <div class="container list-descriptions-container">
-                                <div class="col-xs-6 col-md-2 app-image">
-                                <span class="thumbnail"><img
-                                        src="https://lh3.googleusercontent.com/5xzdlK741mj16PSZYCZ2pseErSdUgoWQUVG8Lym8qQ9ZFAi6G-mkE8HaC-9ihhFWlTI=w300-rw"></span>
-                                </div>
-                                <div class="app-description">
-                                    <h4>Ducky Debug (Alpha)</h4>
-                                    <p>The app is like a notepad, but a special one! It is meant to help you solve out
-                                        your
-                                        programming issues by creating a thinking path through answering questions,
-                                        relevant to
-                                        the kind of issue you're having.What the app does is templating questions that
-                                        would
-                                        prompt you to think about the problem in different ways and write out about your
-                                        observations...</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://www.microsoft.com/en-us/store/p/ascii-to-text/9pn63cmswmbl"
-                           class="list-group-item" onclick="onLinkedItemClick(this,'app-clicked')">
-                            <div class="container list-descriptions-container">
-                                <div class="col-xs-6 col-md-2 app-image">
-                                <span class="thumbnail"><img
-                                        src="https://store-images.s-microsoft.com/image/apps.42315.14354475131591029.4fbb5613-1354-4164-9011-59e8fb424916.ff207e80-bf7f-4f8e-afeb-534bd4f52b8f?w=180&h=180&q=60"></span>
-                                </div>
-                                <div class="app-description">
-                                    <h4>ASCII to Text</h4>
-                                    <p>
-                                        - Convert almost any text into Binary, Octal, Decimal or Hex.<br>
-                                        - Convert Binary from ASCII and Octal, Decimal, Hex from Unicode to
-                                        text.<br><br>
-                                        - Use the combo box to switch between counting bases.<br>
-                                        - The Binary conversion will work only with 255 characters.<br>
-                                        - All other conversions will work with the limit of their integer length.<br>
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
+            <!--            Featured projects-->
+            <div class="row">
+                <div class="col">
+                    <div class="card info-card mt-5">
+                        <div class="card-header">
+                            Featured projects
+                        </div>
+                        <div class="card-body  overflow-auto">
+                            <ul class="list-group card-body-list">
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://github.com/vv-b-s/bookstore">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>Bookstore</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            A multi-language project aimed to demonstrate the functionality of REST architectures.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://gitlab.com/vv-b-s/weatherchecker">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>Weather checker</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Cordova app which works with OpenWeather API to fetch the current weather.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!--            Contributions-->
+            <div class="row">
+                <div class="col">
+                    <div class="card info-card mt-5">
+                        <div class="card-header">
+                            Contributions
+                        </div>
+                        <div class="card-body overflow-auto">
+                            <ul class="list-group card-body-list">
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://github.com/bgjug/jprime">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col">
+                                                  <h3>jPrime</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://github.com/bgjug/website">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col">
+                                                  <h3>Bulgarian Java user group website</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--            Education and achievements-->
+            <div class="row">
+                <div class="col">
+                    <div class="card info-card mt-5">
+                        <div class="card-header">
+                            Education and certifications
+                        </div>
+                        <div class="card-body overflow-auto">
+                            <ul class="list-group card-body-list">
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="#">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="res/img/education/unwe.png" class="img-fluid">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>Bachelors degree on 'Business informatics and communication' at the University of national and world economy</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            2015 - 2019<br/><br/>
+
+                                                            My four years at UNWE gave me common knowledge in the following disciplines:<br/>
+                                                            Economics<br/>
+                                                            Informatics<br/>
+                                                            Computer Science<br/>
+                                                            Software engineering<br/>
+                                                            Business intelligence<br/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://softuni.bg/certificates/details/53420/0d8d0865">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="res/img/education/softuni.png" class="img-fluid">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>C# OOP Advenced</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Issued by: Software University<br/>
+                                                            Issue date: April 2018
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://softuni.bg/certificates/details/52596/dce8a637">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="res/img/education/softuni.png" class="img-fluid">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>C# OOP Basics</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Issued by: Software University<br/>
+                                                            Issue date: March 2018
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://softuni.bg/certificates/details/51526/f7037c70">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="res/img/education/softuni.png" class="img-fluid">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>C# Advanced</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Issued by: Software University<br/>
+                                                            Issue date: February 2018
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://softuni.bg/certificates/details/22824/debc2bc3">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="res/img/education/softuni.png" class="img-fluid">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>Software technologies</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Issued by: Software University<br/>
+                                                            Issue date: August 2017
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://softuni.bg/certificates/details/21257/fc2d53fb">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="res/img/education/softuni.png" class="img-fluid">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>Programming Fundamentals</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Issued by: Software University<br/>
+                                                            Issue date: July 2017
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://softuni.bg/certificates/details/18270/7c20c13e">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="res/img/education/softuni.png" class="img-fluid">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>Programming basics</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Issued by: Software University<br/>
+                                                            Issue date: March 2017
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action">
+                                    <a class="content-link"
+                                       href="https://www.youracclaim.com/badges/a0709f15-50c2-4bf8-9966-d36195fcf733/linked_in_profile">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img src="res/img/education/mos-sharepoint.png" class="img-fluid">
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <h3>Microsoft Office Specialist SharePoint 2013</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            Issued by: Microsoft<br/>
+                                                            Issue date: April 2016
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </div>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112975842-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'UA-112975842-1');
-
-    //Generate age
-    document.getElementById('age').textContent = getYears(new Date(1997, 1, 12, 0, 0, 0, 0));
-    document.getElementById('coding-since').textContent = getYears(new Date(2016, 4, 21, 0, 0, 0, 0));
-</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
