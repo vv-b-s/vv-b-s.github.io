@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac791c5-cfff-4053-a875-e696bdfa6935" name="Default" comment="Updated the portfolio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,7 +134,8 @@
       <workItem from="1537252166635" duration="4602000" />
       <workItem from="1537883985821" duration="477000" />
       <workItem from="1537890059934" duration="9000" />
-      <workItem from="1567241177032" duration="19972000" />
+      <workItem from="1567241177032" duration="20721000" />
+      <workItem from="1567320803731" duration="1826000" />
     </task>
     <task id="LOCAL-00001" summary="Added more content to show for the portfolio">
       <created>1516630706579</created>
