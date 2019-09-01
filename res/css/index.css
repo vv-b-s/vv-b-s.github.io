@@ -5,7 +5,11 @@ body {
 }
 
 .general-card {
-    background: rgba(129, 129, 129, 0.5);
+    background: linear-gradient(to right bottom, rgba(129, 129, 129, 0.6), rgba(128, 124, 126, 0.6), rgba(129, 118, 127, 0.6), rgba(125, 114, 106, 0.6), rgba(112, 113, 98, 0.6));
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+
+    backdrop-filter: blur(6px);
 }
 
 .info-card {
