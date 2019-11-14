@@ -1,0 +1,26 @@
+.card-header {
+    background: rgba(33, 33, 33, 0.5) !important;
+    font-weight: bold !important;
+}
+
+.card-body {
+    padding: 0;
+    max-height: 500px;
+}
+
+.card-body-list > li {
+    background: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.card-body-list > li:hover {
+    color: white;
+    background: rgba(74, 74, 74, 1);
+}
+
+.card-img-top {
+    position: absolute;
+    top: -30px;
+    height: 120px;
+    width: 120px;
+}

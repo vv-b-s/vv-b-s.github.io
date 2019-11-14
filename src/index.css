@@ -1,0 +1,5 @@
+body {
+  color: white !important;
+  background: url("./background.png") repeat;
+  background-attachment: fixed;
+}

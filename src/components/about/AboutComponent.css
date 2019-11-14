@@ -1,0 +1,23 @@
+.card-img-top {
+    position: absolute;
+    top: -30px;
+    height: 120px;
+    width: 120px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+
+.occupation-text {
+    color: white;
+}
+
+.occupation-text > a {
+    color: white;
+}
+
+.occupation-text > a:hover {
+    color: #008080;
+}

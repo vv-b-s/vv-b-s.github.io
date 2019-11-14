@@ -2,8 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac791c5-cfff-4053-a875-e696bdfa6935" name="Default" comment="Updated the portfolio">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/AboutComponent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/AboutComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/GeneralCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/GeneralCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/InfoCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/InfoCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cards/ReferenceCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/featured/FeaturedComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/reficon/ReferenceIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/reficon/ReferenceIconBlueprint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vv-b-s.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vv-b-s.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/img/argyle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/img/articles/ssl-article-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/img/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/img/education/mos-sharepoint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/img/education/softuni.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/img/education/unwe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/img/pix-avatar-self.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/img/portfolio-bcg.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +62,11 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
+  <component name="GOROOT" path="/usr/lib/golang" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -35,13 +77,20 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1QBPldmk3KjrZt16I2BX0Z5b0ti" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537884426826" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/res/img/education" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/about" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,17 +99,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/reficon" />
+      <recent name="$PROJECT_DIR$/src/components/cards" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/res/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/about" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/res/img/education" />
       <recent name="$PROJECT_DIR$/res/img/articles" />
-      <recent name="$PROJECT_DIR$/res/img" />
-      <recent name="C:\Users\Brain\dev\vv-b-s.github.io\scripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,9 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/vv-b-s.github.io/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -115,6 +166,13 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -136,7 +194,10 @@
       <workItem from="1537883985821" duration="477000" />
       <workItem from="1537890059934" duration="9000" />
       <workItem from="1567241177032" duration="20721000" />
-      <workItem from="1567320803731" duration="4432000" />
+      <workItem from="1567320803731" duration="5947000" />
+      <workItem from="1573636653464" duration="9660000" />
+      <workItem from="1573646579166" duration="766000" />
+      <workItem from="1573738690245" duration="6188000" />
     </task>
     <task id="LOCAL-00001" summary="Added more content to show for the portfolio">
       <created>1516630706579</created>
@@ -179,6 +240,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added more content to show for the portfolio" />
     <MESSAGE value="Fixed problem with displaying content" />
     <MESSAGE value="Updated the portfolio" />
