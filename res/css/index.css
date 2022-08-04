@@ -104,6 +104,15 @@ body {
     text-decoration: unset;
 }
 
+.photography-link {
+    color: white;
+}
+
+.photography-link:hover {
+    color: lightgray;
+    text-decoration: unset;
+}
+
 .instagram-link {
     color: #FC00AA;
 }
